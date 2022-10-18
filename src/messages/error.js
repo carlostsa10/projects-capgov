@@ -14,9 +14,16 @@ const errors = {
   userDelete: "Não foi possível deletar o usuário.",
   authorizationX: "O usuário precisa estar logado!",
   accountX: "É preciso ter uma conta válida para acessar estes recursos.",
+  titleX: "O título do projeto é obrigatório.",
+  zipcodeX: "O CEP destinado ao projeto é obrigatório.",
+  costX: "O valor destinado ao projeto é obrigatório.",
+  deadlineX: "A data final do projeto deve ser especificada",
+  projectCouldNot: "Não foi possível criar o projeto.",
+  userProjectsX: "O usuário não possui projetos cadastrados.",
 };
 
 const others = {
   signin: "Cadastro realizado com sucesso!",
+  sucessProject: "Parabéns! Você fez um descarte consciente!",
 };
 module.exports = { errors, others };
